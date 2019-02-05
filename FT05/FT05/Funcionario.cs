@@ -30,6 +30,8 @@ namespace FT05
             {
                 if (new EmailAddressAttribute().IsValid(value))
                     _eMail = value;
+                else
+                    _eMail = "a@a.a";
             }
         }
         public double ValorHora
