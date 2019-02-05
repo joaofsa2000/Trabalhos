@@ -46,6 +46,7 @@ namespace FT05
             pointer = 0;
             while (pointer!=-2)
             {
+                Console.CursorVisible = false;
                 MenuPrincipal(ref pointer, mainmenu);
                 key = Console.ReadKey(true);                
                 if (MenuSeta(7, key, ref pointer))
@@ -205,7 +206,9 @@ namespace FT05
         }
         static bool MenuPrincipal(ref int pointer, string[] menuEG)
         {
+            
             Console.Clear();
+            Console.CursorVisible = false;
             Console.WriteLine(menuEG[0]+"\n\n");
             for (int i = 1; i < menuEG.Length; i++)
             {
@@ -299,7 +302,8 @@ namespace FT05
         }
         static bool MenuSeta(int optionSize, ConsoleKeyInfo key,ref int pointer)
         {
-// optionSize é o numero de opçoes no menu (ex:. se o menu tiver 4 opçoes entao o optionSize é 4), ele permite saber onde esta o ponteiro.
+            // optionSize é o numero de opçoes no menu (ex:. se o menu tiver 4 opçoes entao o optionSize é 4), ele permite saber onde esta o ponteiro.
+            Console.CursorVisible = false;
             if (key.Key == ConsoleKey.UpArrow)
             {     
                 pointer -= 1;
@@ -330,6 +334,7 @@ namespace FT05
         {
             int count = 1;
             Console.Clear();
+            Console.CursorVisible = false;
             Console.WriteLine(menuEG[0]);
             foreach(Gerente obj in s)
             {
@@ -349,6 +354,7 @@ namespace FT05
         {
             int count = 1;
             Console.Clear();
+            Console.CursorVisible = false;
             Console.WriteLine(menuEG[0]);
             foreach (Operario obj in s)
             {
@@ -367,6 +373,7 @@ namespace FT05
         static void menudeFuncionario(List<Operario> s,List<Gerente> t)
         {
             Console.Clear();
+            Console.CursorVisible = false;
             Console.WriteLine("Lista de Funcionários:\n\n");
             foreach(Gerente obj in t)
             {
@@ -380,6 +387,7 @@ namespace FT05
         static void menuTerceiro(string es,ref int pointer,string[] menuEG)
         {
             Console.Clear();
+            Console.CursorVisible = false;
             Console.WriteLine(es+"\n\n\n"+menuEG[0] + "\n");
             for (int i = 1; i < menuEG.Length; i++)
             {
