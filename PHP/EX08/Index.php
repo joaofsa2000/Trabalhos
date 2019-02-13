@@ -1,12 +1,18 @@
 <?php
-$b=23532;
-$pri=1;
-$ult=10;
+function capicua(int $num) : bool{
+$pri=1;$c=0;
 $a=0;
-while($a!=$b){    
-    $a($b/$pri)%$ult;
+while($c<strlen((string)$num)){    
+    $a=$a.(($num/$pri)%10);
     $pri=$pri*10;
-    $ult=$ult*10;
+    $c++;
 }
-echo "É capicua";
+return $a==$num;
+}
+if(capicua(252)){
+    echo "É capicua";
+}
+else{
+echo "Não é capicua ";
+}
 ?>
