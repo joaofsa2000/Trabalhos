@@ -1,0 +1,9 @@
+header{	
+        background: -webkit-linear-gradient(left,RGBA(255, 177, 0, 1), RGBA(255, 86, 0, 1));color:#336699;
+        padding:10px;font-size:150%
+}
+p.votos{
+	color:rgba(0, 106, 212, 0.8);
+	font-size:80%
+
+}
