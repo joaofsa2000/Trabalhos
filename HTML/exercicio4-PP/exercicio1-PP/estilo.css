@@ -1,0 +1,22 @@
+th,td{
+    border: 2px ridge white;
+}
+table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgba(128, 128, 128, 0.603);
+}
+ul{
+    margin-left: -35px;
+}
+ul li{
+    
+    padding: 10px;
+    color:white;
+    display: inline;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+ul li:last-child{
+    background-color: orange;
+}

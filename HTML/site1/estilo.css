@@ -1,9 +1,24 @@
 header{	
-        background: -webkit-linear-gradient(left,RGBA(255, 177, 0, 1), RGBA(255, 86, 0, 1));color:#336699;
-        padding:10px;font-size:150%
+	height: 40px;
+	background-color: rgb(199, 94, 9) ;color:#336699;
+	box-shadow: 30px;
+	font-size:100%;
+	padding: 10px;
 }
 p.votos{
 	color:rgba(0, 106, 212, 0.8);
 	font-size:80%
-
+}
+footer{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #333;
+	padding:20px;
+	color:white;
+}
+h1{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 30%;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
 }
