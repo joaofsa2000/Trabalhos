@@ -1,0 +1,43 @@
+table.tab1 {
+    padding-bottom: 5px;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    background-clip: content-box;
+    box-shadow: inset  0px -3px  0px 4px black;
+}
+table.tab1 th,td{
+    border: 1px ridge rgba(255, 255, 255, 0.664);
+}
+td#a{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+table.tab2{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 70%;
+    border: 1px solid black;
+}
+table.tab2 td,th{
+    border: 1px ridge rgb(0, 0, 0);
+}
+table.tab2 th{
+    background-color: white;
+    color:blue;
+}
+#name{
+    background-color: palevioletred;
+}
+#values{
+    font-style: normal;
+    color: green;
+    background-color: yellow;
+}
+#final{
+    font-weight: bold;
+    font-style: normal;
+    background-color: red
+}

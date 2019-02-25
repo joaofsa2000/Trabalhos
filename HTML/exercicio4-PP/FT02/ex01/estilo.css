@@ -1,0 +1,107 @@
+
+ul{
+    margin-left: 390px;
+    margin-top: -110px;
+}
+li {
+    float: left;
+}
+ul li{
+    margin:10px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+    color:white;
+    display: inline;
+    background-color: rgb(187, 163, 127);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li a:hover{
+    margin:-10px;
+    border-radius: 10px;
+    padding: 10px;
+    color:white;
+    background-color: rgb(73, 57, 46);
+}
+li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+header{
+    width: 100%;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('file:///E:/Trabalhos/image-sources/restaurant-background.jpg');
+    background-position: 0px -300px;
+    background-size:cover;
+    height: 300px;
+}
+#logo{
+    margin:30px;
+    height: 100px;
+}
+fieldset{
+    position:absolute;
+    bottom: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgba(255, 235, 205, 0.75);
+    height: 150px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border:none;
+}
+
+h1{
+    font-size: 50px;
+}
+section{
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    
+}
+div.figure{
+    display: inline-table;
+    padding: 10px;
+}
+
+div.caption{
+    display: table-caption;
+    caption-side: bottom;
+    text-align: justify;
+    padding: 0px 10px;
+}
+footer{
+    color: white;
+    padding: 20px;
+    background-color: rgb(41, 41, 41);
+    margin-top: 20px;
+    text-align:center;
+    
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(41, 41, 41);
+}
+#facebook,#twitter{
+    width: 40px;
+    padding: 3px;
+}
+div.figure-especialidades{
+    display: table;
+    padding: 10px;
+}
+
+div.caption-especialidades{
+    display: table-caption;
+    caption-side: right;
+    text-align: justify;
+    padding: 0px 10px;
+}
+ 

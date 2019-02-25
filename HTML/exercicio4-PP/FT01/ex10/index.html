@@ -3,19 +3,57 @@
 <head lang="pt">
     <meta charset="utf-8">
     <title>EX10</title>
+    <link rel="stylesheet" href="FT01-Ex10_a.css"/>
 </head>
 <body>
-    <table>
-        <td>
-            <tr colspan=3>1</tr>
-        </td>
-        <td>
-            <tr rowspan=2>2</tr>
-            <tr rowspan=2>3</tr>
-            <tr>4</tr>
-        </td>   
-        <td>5</td>     
-
+    <h1>tabela 1</h1>
+    <table class="tab1">
+        <tr>
+            <td colspan=6 >1</td>
+        </tr>
+        <tr>
+            <td rowspan=2 colspan=2>2</td>
+            <td id="a" rowspan=2 colspan=2>3</td>
+            <td id="a" colspan=2>4</td>
+        </tr>   
+        <tr>
+            <td id="a" colspan=2>5</td>
+        </tr>     
+    </table>
+    <h2>Tabela 2</h2>
+    <table class="tab2">
+        <tr>
+            <th><strong>Aluno</strong></th>
+            <th colspan=2><strong>Frequencia</strong></th>
+            <th colspan=2><strong>1ªChamada</strong></th>
+            <th colspan=2><strong>2ªchamada</strong></th>
+            <th><strong>Final</strong></th>
+        </tr>
+        <tr>
+            <td id="name" ><strong>Ana Maria</strong></td>
+            <td id="values"  colspan=2>12.5</td>
+            <td id="values"  colspan=2>14.2</td>
+            <td id="values"  colspan=2></td>
+            <td id="final" >14</td>
+        </tr>
+        <tr>
+            <td  id="name"><strong>João</strong></td>
+            <td  id="values" colspan=2>11.5</td>
+            <td id="values"  colspan=2>12.2</td>
+            <td id="values"  colspan=2></td>
+            <td id="final" >13</td>
+        </tr>
+        <tr>
+                <td id="name"><strong>Rui Manuel</strong></td>
+                <td id="values" colspan=2>12.5</td>
+                <td id="values"  colspan=2>13.2</td>
+                <td id="values"  colspan=2></td>
+                <td id="final" >13</td>
+        </tr>
+        <tr>
+            <th colspan=7><strong>Média</strong></th>
+            <th> <strong>13.3</strong></th>
+        </tr>
 
     </table>
 </body>
