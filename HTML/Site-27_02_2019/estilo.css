@@ -1,0 +1,129 @@
+*{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+body{
+    margin: 0;
+    background-color: rgb(51, 50, 50);
+
+}
+header{
+    background-color: peachpuff;
+    height: 200px;
+}
+nav{
+    background-color: rgb(197, 154, 106);
+    height: 50px;
+}
+nav ul{
+    margin: 0px;
+    text-align:center;
+}
+nav ul li{
+    display:inline-block;
+    background-color: rgb(141, 94, 40);
+    padding:10px;
+    margin:6px;
+    border-radius: 5px 0px 5px 0px;
+    border-bottom: 3px solid peachpuff;
+}
+nav ul a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+nav ul li:hover{
+    background-color: peachpuff;
+    color:black;
+    border-bottom: 3px solid rgb(141, 94, 40);
+}
+section{
+    background-color: white;
+    min-height: 400px;
+}
+section h1{
+    margin: 0px;
+    padding:20px;
+    text-align: center;
+    font-size: 16px;
+    color:rgb(141, 94, 40);
+}
+section.serv section.servicos, section.cont section.formulario, section.about section.sobre, section.index section.inicio{
+    width: 80%;
+    margin:0px auto;
+
+}
+section.index section.inicio{
+    text-align: center;
+
+}
+section.serv section.servicos article{
+    width: 30%;
+    margin:1%;
+    display:inline-block;
+    vertical-align: top;
+}
+section.serv section.servicos article:first-child{
+    margin-left: 2%;
+}
+section.serv section.servicos article img{
+    width: 100%;
+}
+section.serv section.servicos article p{
+    text-align: center;
+}
+section.about section.sobre article.imagem{
+    width:25%;
+    display: inline-block;
+    margin:2%;
+}
+section.about section.sobre article.imagem img{
+   width: 100%;
+}
+section.about section.sobre article.texto{
+    width:65%;
+    display: inline-block;
+    margin-top: 1%;
+    vertical-align: top;
+    font: 16px;
+    text-align: justify;
+}
+footer{
+    background-color: rgb(51, 50, 50);
+    height:100px;
+    padding:30px;
+}
+footer p{
+    color: white;
+    text-align:center;
+    font-size: 10px;
+}
+input, textarea{
+    width:90%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    line-height: 24px;
+    padding: 10px 15px;
+    letter-spacing: 0.3px;
+    margin:5px;
+}
+textarea{
+    resize: none;
+}
+input:focus, textarea:focus{
+    outline: rgb(197, 154, 106) solid;
+}
+p.botoes{
+    text-align: center;
+    margin-bottom:0px;
+}
+input[type="submit"], input[type="reset"]{
+    width: 30%;
+    color: white;
+    background-color: rgb(141, 94, 40);
+    font-size: 18px;
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+background-color: peachpuff;
+color: black;
+}
