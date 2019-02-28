@@ -58,5 +58,53 @@ namespace EX03.Properties {
                 this["peso3"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1.06257")]
+        public double dollar {
+            get {
+                return ((double)(this["dollar"]));
+            }
+            set {
+                this["dollar"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.85263")]
+        public double libra {
+            get {
+                return ((double)(this["libra"]));
+            }
+            set {
+                this["libra"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("117.8")]
+        public double lene {
+            get {
+                return ((double)(this["lene"]));
+            }
+            set {
+                this["lene"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("9.79447")]
+        public double sek {
+            get {
+                return ((double)(this["sek"]));
+            }
+            set {
+                this["sek"] = value;
+            }
+        }
     }
 }

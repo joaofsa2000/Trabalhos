@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{39DB009F-5511-45EF-B249-24F63239E251}</ProjectGuid>
+    <ProjectGuid>{075E0285-CFA8-4764-8DA2-C5D2C47B1C29}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>EX03</RootNamespace>
-    <AssemblyName>EX03</AssemblyName>
+    <RootNamespace>frmQueHorasSao</RootNamespace>
+    <AssemblyName>frmQueHorasSao</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,61 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cumprimentos.cs">
+    <Compile Include="frmQueHorasSao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cumprimentos.designer.cs">
-      <DependentUpon>Cumprimentos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CalcNota.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CalcNota.Designer.cs">
-      <DependentUpon>CalcNota.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmCambioRadioButton.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCambioRadioButton.Designer.cs">
-      <DependentUpon>frmCambioRadioButton.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmQuantoTempoPassou.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmQuantoTempoPassou.Designer.cs">
-      <DependentUpon>frmQuantoTempoPassou.cs</DependentUpon>
-    </Compile>
-    <Compile Include="mainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="mainForm.Designer.cs">
-      <DependentUpon>mainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="NomeEmail.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NomeEmail.Designer.cs">
-      <DependentUpon>NomeEmail.cs</DependentUpon>
+    <Compile Include="frmQueHorasSao.Designer.cs">
+      <DependentUpon>frmQueHorasSao.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Cumprimentos.resx">
-      <DependentUpon>Cumprimentos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CalcNota.resx">
-      <DependentUpon>CalcNota.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmCambioRadioButton.resx">
-      <DependentUpon>frmCambioRadioButton.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmQuantoTempoPassou.resx">
-      <DependentUpon>frmQuantoTempoPassou.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="mainForm.resx">
-      <DependentUpon>mainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NomeEmail.resx">
-      <DependentUpon>NomeEmail.cs</DependentUpon>
+    <EmbeddedResource Include="frmQueHorasSao.resx">
+      <DependentUpon>frmQueHorasSao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -122,12 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\frmQueHorasSao\frmQueHorasSao.csproj">
-      <Project>{075e0285-cfa8-4764-8da2-c5d2c47b1c29}</Project>
-      <Name>frmQueHorasSao</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

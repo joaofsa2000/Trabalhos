@@ -45,6 +45,31 @@ namespace EX03
             }
             nm.Show();
         }
+        private void queHorasSaoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!(this.MdiChildren.FirstOrDefault(obj => obj.GetType() == typeof(frmQueHorasSao)) is frmQueHorasSao horas))
+            {
+                horas = new frmQueHorasSao() { MdiParent = this };
+            }
+            horas.Show();
+        }
+        private void calendarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!(this.MdiChildren.FirstOrDefault(obj => obj.GetType() == typeof(frmQuantoTempoPassou)) is frmQuantoTempoPassou tempo))
+            {
+                tempo = new frmQuantoTempoPassou() { MdiParent = this };
+            }
+            tempo.Show();
+        }
+        private void cambioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!(this.MdiChildren.FirstOrDefault(obj => obj.GetType() == typeof(frmCambioRadioButton)) is frmCambioRadioButton cambio))
+            {
+                cambio = new frmCambioRadioButton() { MdiParent = this };
+            }
+            cambio.Show();
+
+        }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {

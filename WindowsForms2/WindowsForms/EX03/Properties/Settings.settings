@@ -11,5 +11,17 @@
     <Setting Name="peso3" Type="System.Double" Scope="User">
       <Value Profile="(Default)">0.2</Value>
     </Setting>
+    <Setting Name="dollar" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1.06257</Value>
+    </Setting>
+    <Setting Name="libra" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.85263</Value>
+    </Setting>
+    <Setting Name="lene" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">117.8</Value>
+    </Setting>
+    <Setting Name="sek" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">9.79447</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
